@@ -1,0 +1,212 @@
+* {
+    /* 外距 */
+    margin: 0;
+    /* 內距 */
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #eee; */
+}
+
+.banner {
+    width: 100%;
+    /* vh螢幕高度 */
+    height: 100vh;
+    background-image: url(./img/coffe.jpg);
+    background-size: cover;
+}
+
+nav {
+    padding: 30px;
+
+}
+
+
+nav>a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.banner_data {
+    width: 400px;
+    /* tac */
+    text-align: center;
+    /* 萬能置中 */
+    margin: 200px auto;
+    /* margin-top: 100px; */
+    /* margin: 200px auto 0 auto ; */
+
+}
+
+.banner_data>p {
+    color: #000;
+
+}
+
+.banner_data>h1 {
+
+    color: #000;
+    font-size: 70px;
+}
+
+
+
+
+/* 最新消息 */
+
+.new {
+
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    /* gird */
+    /* gird-gap */
+    padding: 50px 0;
+}
+
+.back {
+    background-color: #eee;
+}
+
+.new_carv img {
+
+    width: 100%;
+    height: 400px;
+    /* 百分比 */
+    object-fit: cover;
+
+}
+
+.new_carv {
+    width: 49%;
+    background-color: #fff;
+    padding-bottom: 60px;
+}
+
+.new_data {
+    padding: 0 30px;
+}
+
+.new_title {
+    color: #aaa;
+    text-align: center;
+    font-size: 24px;
+    /* 文字與文字距離 */
+    letter-spacing: 10px;
+
+
+}
+
+.new_data hr {
+    width: 50%;
+    /* 要有個實際寬度 */
+    margin: 20px auto;
+
+}
+
+.new_data h2 {
+    text-align: center;
+
+}
+
+.no_p {
+    margin: 20px 0;
+}
+
+.new_data a {
+    text-decoration: none;
+    color: #aaa;
+    /* 線的大小,樣式,顏色 */
+    border: 1px solid #aaa;
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 auto;
+    /* 時間觸發事件 */
+    transition: 0.5s;
+}
+
+/* hover觸摸到的事情 */
+.new_data>a:hover {
+    background-color: #aaa;
+    border: 0;
+    color: #fff;
+}
+
+.bg_fixed {
+    background-image: url(./img/back.jpg);
+    background-attachment: fixed;
+}
+
+.bg_fixed h3 {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 8px;
+    font-weight: 100;
+    padding: 50px 0;
+    color: #fff;
+    /* 濾鏡 */
+    backdrop-filter: blur(5px) opacity(80%);
+    transition: 0.5s;
+}
+
+.bg_fixed h3:hover {
+    backdrop-filter: blur(0px) opacity(100%);
+}
+
+.work h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 20px;
+    color: #ccc;
+}
+
+.work_list {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.work_card {
+    width: 50%;
+    text-align: center;
+    height: 400px;
+    /* background-image: url(./img/new.jpg); */
+    color: #fff;
+}
+
+.work_card h1 {
+    font-size: 60px;
+    padding: 160px 0;
+    backdrop-filter: blur(5px) opacity(80%);
+}
+
+.map {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fb{
+width: 40px;
+}
