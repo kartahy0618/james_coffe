@@ -23,7 +23,12 @@
     .banner {
         background-position: -107vw 100px;
     }
+    .banner_data hr{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
+
 
 nav {
     padding: 30px;
